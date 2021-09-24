@@ -17,6 +17,10 @@
     cursor: pointer;
 }
 
+.nav-menu{
+    align-self: center;
+}
+
 .list-menu{
     display: inline-flex;
     list-style: none;
@@ -74,6 +78,17 @@
 .cursos-title{
     text-align: center;
     padding: 35px;
+    height: 125px;
+}
+
+.background{
+    background: rgb(247 225 207);
+    width: 86%;
+    height: 90px;
+    position: absolute;
+    left: 7%;
+    z-index: -1;
+    top: 130%;
 }
 
 .cursos-cards{
