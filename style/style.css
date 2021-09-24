@@ -1,0 +1,149 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 25px;
+    background: #303b48;
+    color: white;
+}
+
+.home{
+    cursor: pointer;
+}
+
+.list-menu{
+    display: inline-flex;
+    list-style: none;
+}
+
+.btn-menu{
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    padding-bottom: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+}
+
+.btn-menu:hover{
+    border-bottom: 3px solid beige;
+}
+
+.item-menu{
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.banner{
+    text-align: center;
+    min-width: 100%;
+    position: relative;
+}
+
+.banner-image{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    image-rendering: pixelated;
+}
+
+.banner-text{
+    position: absolute;
+    top: 12%;
+    left: 60%;
+    padding: 20px;
+    color: white;
+}
+
+.titulo-banner{
+    font-size: 80px;
+}
+
+.description{
+    padding-top: 20px;
+    font-size: 17px;
+}
+
+.cursos-title{
+    text-align: center;
+    padding: 35px;
+}
+
+.cursos-cards{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 50px;
+    padding: 0 10%;
+    align-items: baseline;
+}
+
+.card{
+    text-align: center;
+}
+
+.imagen-curso{
+    width: 100%;
+}
+
+hr{
+    border: 2px solid rgb(187, 111, 49);
+    background: rgb(187, 111, 49);
+    margin-bottom: 20px;
+}
+
+.titulo-curso{
+    padding: 20px;
+    color: rgb(187, 111, 49);
+}
+
+.texto-curso{
+    font-size: 20px;
+    margin-bottom: 20px;
+    padding: 0 41px;
+    color: rgb(196, 191, 191);
+    min-height: 161px;
+}
+
+.btn-ver-mas{
+    background: rgb(187, 111, 49);
+    border: none;
+    height: 35px;
+    width: 90px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-medio{
+    margin-top: 23px;
+}
+
+.footer{
+    text-align-last: center;
+    height: 85px;
+    background: #303b48;
+    margin-top: 60px;
+    color: white;
+}
+
+.nav-menu-footer{
+    display: inline-flex;
+    align-items: center;
+    list-style: none;
+}
+
+.item-footer{
+    padding: 25px;
+    cursor: pointer;
+}
+
+.fa-footer{
+    font-size: xx-large;
+}
