@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .header{
@@ -9,11 +10,12 @@
     flex-direction: row;
     justify-content: space-between;
     padding: 25px;
-    background: #303b48;
+    background: #484F5B;
     color: white;
 }
 
-.home{
+.logo{
+    width: 170px;
     cursor: pointer;
 }
 
@@ -21,6 +23,9 @@
     align-self: center;
 }
 
+a{
+    text-decoration: none;
+}
 .list-menu{
     display: inline-flex;
     list-style: none;
@@ -36,13 +41,31 @@
     color: white;
 }
 
-.btn-menu:hover{
-    border-bottom: 3px solid beige;
+.item-menu:hover{
+    border-bottom: 3px solid #B4846C;
+}
+
+.home-menu{
+    border-bottom: 3px solid #B4846C;
+}
+
+.home-menu:hover{
+    border-bottom: none;
 }
 
 .item-menu{
-    margin-right: 20px;
+    margin-right: 40px;
     cursor: pointer;
+    font-size: 20px;
+}
+
+.icon-header{
+    margin-top: 7px;
+    color: white;
+}
+
+.icon-header:visited{
+    color: white;
 }
 
 .banner{
@@ -58,37 +81,78 @@
     image-rendering: pixelated;
 }
 
+.logo-1{
+    width: 250px;
+}
+
 .banner-text{
     position: absolute;
-    top: 12%;
-    left: 60%;
+    top: 26%;
+    left: 62%;
     padding: 20px;
     color: white;
+    text-align: left;
 }
 
 .titulo-banner{
-    font-size: 80px;
+    font-size: 68px;
+    text-align: left;
 }
 
 .description{
     padding-top: 20px;
     font-size: 17px;
+    text-align: left;
 }
 
 .cursos-title{
     text-align: center;
     padding: 35px;
     height: 125px;
+    font-size: 50px;
+    margin-bottom: 63px;
+}
+
+.quienes-somos-title{
+    background: #B4846C;
+    color: white;
+    width: 65%;
+    margin-left: 160px;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 0;
+    padding-top: 20px;
+    left: 8%;
+    position: relative;
+}
+
+.linea-titulo{
+    border: 4px solid white;
+    background: white;
+    width: 30px;
+    margin-bottom: 20px;
+    margin-left: 8px;
+}
+
+.descr-somos{
+    font-size: 30px;
+    margin-left: 10px;
+    padding-top: 5px;
+}
+
+span{
+    font-weight: bold;
 }
 
 .background{
-    background: rgb(247 225 207);
+    background: #ECD8C9;
     width: 86%;
-    height: 90px;
+    height: 130px;
     position: absolute;
     left: 7%;
     z-index: -1;
-    top: 130%;
+    top: 135%;
 }
 
 .cursos-cards{
@@ -101,33 +165,40 @@
 
 .card{
     text-align: center;
+    border: 1px solid #A1A9B0;
+    background: border-box;
+    box-shadow: 0 3px 6px rgb(0 0 0 / 30%);
+    height: 660px;
 }
 
 .imagen-curso{
     width: 100%;
+    height: 260px;
 }
 
 hr{
-    border: 2px solid rgb(187, 111, 49);
-    background: rgb(187, 111, 49);
+    border: 2px solid #B4846C;
+    background: #B4846C;
     margin-bottom: 20px;
+    width: 85%;
+    margin-left: 22px;
 }
 
 .titulo-curso{
     padding: 20px;
-    color: rgb(187, 111, 49);
+    color: #B4846C;
 }
 
 .texto-curso{
-    font-size: 20px;
+    font-size: 18px;
     margin-bottom: 20px;
     padding: 0 41px;
     color: rgb(196, 191, 191);
-    min-height: 161px;
+    min-height: 171px;
 }
 
 .btn-ver-mas{
-    background: rgb(187, 111, 49);
+    background: #B4846C;
     border: none;
     height: 35px;
     width: 90px;
@@ -140,10 +211,114 @@ hr{
     margin-top: 23px;
 }
 
+.imagen-mision{
+    width: 450px;
+}
+
+.card-mision{
+    display: inline-flex;
+    position: relative;
+    left: 7%;
+    width: 86%;
+    box-shadow: 0 3px 6px rgb(0 0 0 / 30%);
+}
+
+.title-mision{
+    padding: 40px 50px 10px 65px;
+    color: #B4846C;
+}
+
+#separator{
+    margin-bottom: 5px;
+}
+
+.text-mision{
+    width: 67%;
+    padding: 8px 0px 0 70px;
+    font-size: 20px;
+    color: grey;
+}
+
+.cursos-bg{
+    top: 125%;
+}
+
+.card-curso{
+    display: flex;
+    background: white;
+    max-width: 78%;
+    box-shadow: 0 3px 6px rgb(0 0 0 / 30%);
+    align-items: center;
+    height: 255px;
+    margin-left: 11%;
+    margin-top: 6%;
+}
+
+.cursos-texto{
+    margin: 0;
+    padding-left: 20px;
+}
+
+.imagen-cursos{
+    width: 25%;
+}
+
+.card-descripcion-curso{
+    display: inline-flex;
+    width: 78%;
+    margin-left: 11%;
+    margin-top: 3%;
+}
+
+.descrip-cursos{
+    box-shadow: 0 3px 6px rgb(0 0 0 / 30%);
+    margin: 15px;
+    width: 50%;
+    margin-top: 0;
+}
+
+.curso-titulo{
+    text-align: center;
+}
+
+.cursos-bg2{
+    top: 230%;
+    background: #A6826E;
+}
+.curso2{
+    display: flex;
+    height: 100%;
+}
+
+.descripcion-cursos{
+    width: 70%;
+    margin: 0;
+}
+
+.imagen-cursos2{
+    width: 30%;
+}
+
+.descrip2{
+    height: 460px;
+}
+
+.cursos-bg3{
+    top: 364%;
+}
+
+.img-curso3{
+    height: 100%;
+}
+
+.descrip3{
+    height: 415px;
+}
+
 .footer{
     text-align-last: center;
-    height: 85px;
-    background: #303b48;
+    /* height: 85px; */
+    background: #484F5B;
     margin-top: 60px;
     color: white;
 }
@@ -161,4 +336,8 @@ hr{
 
 .fa-footer{
     font-size: xx-large;
+}
+
+.fa-footer:visited{
+    color: white;
 }
