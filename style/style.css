@@ -71,14 +71,13 @@ a{
 .banner{
     text-align: center;
     min-width: 100%;
-    position: relative;
-}
-
-.banner-image{
-    width: 100%;
-    height: 100vh;
+    background-image: url(/assets/banner1.jpg);
     object-fit: cover;
     image-rendering: pixelated;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .logo-1{
@@ -86,22 +85,31 @@ a{
 }
 
 .banner-text{
-    position: absolute;
-    top: 26%;
-    left: 62%;
+    position: relative;
+    float: right;
+    width: 45%;
     padding: 20px;
     color: white;
     text-align: left;
+    margin-top: 8%;
 }
 
 .titulo-banner{
-    font-size: 68px;
+    font-size: 65px;
     text-align: left;
+}
+
+.somos-banner{
+    background-image: url(/assets/a1.png);
+}
+
+.cursos-banner{
+    background-image: url(/assets/4.png);
 }
 
 .description{
     padding-top: 20px;
-    font-size: 17px;
+    font-size: 20px;
     text-align: left;
 }
 
@@ -341,3 +349,241 @@ hr{
 .fa-footer:visited{
     color: white;
 }
+
+/* Responsive */
+
+@media screen and (min-width: 2011px) {    
+    .btn-menu{
+        font-size: 23px;
+    }
+
+    .logo{
+        width: 200px;
+    }
+
+    .banner-text{
+        top: 30%;
+    }
+    
+    .titulo-banner{
+        font-size: 80px;
+    }
+    .description{
+        font-size: 29px;
+    }
+
+    .imagen-curso {
+        height: 355px;
+    }
+
+    .titulo-curso{
+        font-size: 40px;
+    }
+
+    .card{
+        height: 870px;
+    }
+    .texto-curso{
+        font-size: 25px;
+    }
+    .background{
+        top: 132%;
+    }
+    .btn-ver-mas{
+        width: 100px;
+        height: 42px;
+        font-size: 17px;
+    }
+}
+
+@media screen and (min-width: 1747px){
+    .texto-curso {
+        font-size: 20px;
+    }
+    .card {
+        height: 830px;
+    }
+    .imagen-curso {
+        height: 330px;
+    }
+}
+
+@media screen and (min-width: 1639px){
+    .titulo-banner {
+        font-size: 75px;
+    }
+    .banner-text {
+        top: 20%;
+        left: 55%;
+    }
+    .description {
+        font-size: 23px;
+    }
+}
+
+@media screen and (min-width: 1631px){
+    .titulo-curso {
+        font-size: 35px;
+    }
+    .imagen-curso {
+        height: 320px;
+    }
+    .background {
+        top: 140%;
+    }
+}
+
+@media screen and (max-width: 1487px){
+    .titulo-banner {
+        font-size: 65px;
+    }
+    .imagen-curso {
+        height: 295px;
+    }
+    .titulo-curso {
+        font-size: 30px;
+    }
+    .texto-curso {
+        font-size: 18px;
+    }
+    .card {
+        height: 712px;
+    }
+}
+
+@media screen and (min-width: 1394px){
+    .card {
+        height: 712px;
+    }
+    .btn-ver-mas {
+        font-size: 16px;
+    }
+    .titulo-curso {
+        font-size: 25px;
+    }
+    .imagen-curso {
+        height: 270px;
+    }
+}
+
+@media screen and (min-width: 1381px){
+    .card {
+        height: 712px;
+    }
+    .btn-ver-mas {
+        font-size: 16px;
+    }
+    .titulo-curso {
+        font-size: 25px;
+    }
+    .imagen-curso {
+        height: 270px;
+    }
+}
+
+@media screen and (min-width: 1357px){
+    .card {
+        height: 712px;
+    }
+    .btn-ver-mas {
+        font-size: 16px;
+    }
+    .titulo-curso {
+        font-size: 25px;
+    }
+    .imagen-curso {
+        height: 270px;
+    }
+}
+
+@media screen and (max-width: 885px) {
+    .cursos-cards{
+        grid-template-columns: auto;
+    }
+    .banner-text{
+        width: 48%;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .banner-text{
+        width: 48%;
+    }
+}
+@media screen and (max-width: 1075px) {
+    .banner-text{
+        width: 51%;
+    }
+    
+}
+
+@media screen and (max-width: 1015px) {
+    .description {
+        font-size: 18px;
+    }
+    .titulo-banner {
+        font-size: 50px;
+    }
+    .banner-text{
+        margin-top: 10%;
+        width: 48%;
+    }
+}
+
+@media screen and (max-width: 847px) {
+    .description {
+        font-size: 16px;
+    }
+    .titulo-banner {
+        font-size: 45px;
+    }
+}
+
+@media screen and (max-width: 771px) {
+    .description {
+        font-size: 14px;
+    }
+    .titulo-banner {
+        font-size: 38px;
+    }
+}
+
+@media screen and (max-width: 665px) {
+    .description {
+        font-size: 12px;
+    }
+    .titulo-banner {
+        font-size: 35px;
+    }
+    .banner-text {
+        margin-top: 12%;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .description {
+        font-size: 10px;
+    }
+    .titulo-banner {
+        font-size: 29px;
+    }
+    .banner-text {
+        margin-top: 14%;
+    }
+}
+/* 
+@media screen and (min-width: 375px) {
+    .nav-menu{
+        display: none;
+    }
+    .banner-text{
+        top: 45%;
+        left: 18%;
+    }
+    .titulo-banner{
+        font-size: 25px;
+    }
+    .cursos-cards{
+        grid-template-columns: auto;
+    }
+} */
