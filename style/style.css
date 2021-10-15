@@ -368,11 +368,6 @@ hr{
     .logo{
         width: 200px;
     }
-
-    .banner-text{
-        top: 30%;
-    }
-    
     .titulo-banner{
         font-size: 80px;
     }
@@ -420,10 +415,7 @@ hr{
     .titulo-banner {
         font-size: 75px;
     }
-    .banner-text {
-        top: 20%;
-        left: 55%;
-    }
+
     .description {
         font-size: 23px;
     }
