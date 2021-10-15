@@ -79,7 +79,7 @@ a{
 .banner{
     text-align: center;
     min-width: 100%;
-    background-image: url(/assets/banner1.jpg);
+    background-image: url("/assets/banner1.jpg");
     object-fit: cover;
     image-rendering: pixelated;
     height: 100vh;
@@ -108,11 +108,11 @@ a{
 }
 
 .somos-banner{
-    background-image: url(/assets/a1.png);
+    background-image: url("/assets/a1.png");
 }
 
 .cursos-banner{
-    background-image: url(/assets/4.png);
+    background-image: url("/assets/4.png");
 }
 
 .description{
