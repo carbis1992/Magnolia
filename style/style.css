@@ -14,9 +14,17 @@
     color: white;
 }
 
+.fa-bars{
+    visibility: hidden;
+}
+
 .logo{
     width: 170px;
     cursor: pointer;
+}
+
+.menu-nav{
+    display: none;
 }
 
 .nav-menu{
@@ -434,8 +442,11 @@ hr{
 }
 
 @media screen and (max-width: 1487px){
+    .banner-text{
+        margin-top: 5%;
+    }
     .titulo-banner {
-        font-size: 65px;
+        font-size: 55px;
     }
     .imagen-curso {
         height: 295px;
@@ -499,6 +510,7 @@ hr{
 @media screen and (max-width: 885px) {
     .cursos-cards{
         grid-template-columns: auto;
+        grid-row-gap: 50px;
     }
     .banner-text{
         width: 48%;
@@ -546,6 +558,9 @@ hr{
     .titulo-banner {
         font-size: 38px;
     }
+    .item-menu {
+        margin-right: 25px;
+    }
 }
 
 @media screen and (max-width: 665px) {
@@ -560,6 +575,19 @@ hr{
     }
 }
 
+@media screen and (max-width: 650px) {
+    .nav-menu{
+        display: none;
+    }
+    .header{
+        padding-bottom: 10px;
+    }
+    .fa-bars{
+        visibility: visible;
+        font-size: 30px;
+    }
+}
+
 @media screen and (max-width: 620px) {
     .description {
         font-size: 10px;
@@ -569,6 +597,57 @@ hr{
     }
     .banner-text {
         margin-top: 14%;
+    }
+}
+
+@media screen and (min-width: 319px) and (max-width: 360px){
+    .titulo-banner {
+        font-size: 25px;
+    }
+    .description {
+        font-size: 15px;
+    }
+    .background {
+        top: 144%;
+    }
+    .imagen-curso {
+        height: 196px;
+    }
+    .imagen-curso {
+        height: 185px;
+    }
+}
+
+@media screen and (min-width: 324px) and (max-width: 412px) {
+    .description {
+        font-size: 15px;
+    }
+    .imagen-curso {
+        height: 275px;
+    }
+    .background{
+        top: 131.5%;
+    }
+}
+
+@media screen and (min-width:360px) {
+    .card{
+        height: 640px;
+    }
+    .imagen-curso{
+        height: 240px;
+    }
+    .item-footer{
+        padding: 10px;
+    }
+    .description{
+        font-size: 13px;
+    }
+    .texto-curso{
+        font-size: 15px;
+    }
+    .titulo-curso {
+        font-size: 25px;
     }
 }
 /* 

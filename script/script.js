@@ -1,5 +1,9 @@
-// const navMenuSelector = document.querySelector('#menu-home');
-// $('.item-menu').on("click", function(){
-//     navMenuSelector.classList.remove('home-menu');
-// });
+const menuHamburguesa = document.querySelector("#menu-hamburguesa");
+const listaMenu = document.querySelector("#menu-lista");
 
+menuHamburguesa.addEventListener("click", openMenu);
+
+function openMenu() {
+    listaMenu.classList.add('menu-lista');
+    console.log("click en la hambur");
+}
