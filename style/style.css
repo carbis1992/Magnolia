@@ -34,6 +34,7 @@
 a{
     text-decoration: none;
 }
+
 a:visited{
     color: white;
 }
@@ -76,7 +77,46 @@ a:visited{
 }
 
 .icon-header:visited{
+    color: #ffffff;
+}
+
+.menu-hamburguesa-lista{
+    display: none;
+}
+
+.menu-hamburguesa-lista-block{
+    display: block;
+}
+
+.menu-lista{
+    display: block;
+    background: #484F5B;
+    position: absolute;
+    right: 0;
+    top: 9%;
+    list-style: none;
+    width: 30%;
+    height: 20%;
+}
+
+.btn-menu-hambur{
+    background: transparent;
     color: white;
+    border: none;
+    font-size: 17px;
+}
+
+.item-menu-hambur{
+    padding: 7px;
+}
+
+.icon-header-hambur{
+    display: flex;
+    align-items: center;
+}
+
+.texto-hambur{
+    margin-left: 5px;
 }
 
 .banner{
@@ -171,7 +211,7 @@ span{
     position: absolute;
     left: 7%;
     z-index: -1;
-    top: 135%;
+    top: 143%;
 }
 
 .cursos-cards{
@@ -209,7 +249,7 @@ hr{
 }
 
 .texto-curso{
-    font-size: 18px;
+    font-size: 16px;
     margin-bottom: 20px;
     padding: 0 41px;
     color: rgb(196, 191, 191);
@@ -227,7 +267,7 @@ hr{
 }
 
 .btn-medio{
-    margin-top: 23px;
+    margin-top: 25px;
 }
 
 .imagen-mision{
@@ -436,7 +476,7 @@ hr{
     }
 }
 
-@media screen and (max-width: 1487px){
+/* @media screen and (max-width: 1487px){
     .banner-text{
         margin-top: 5%;
     }
@@ -450,12 +490,12 @@ hr{
         font-size: 30px;
     }
     .texto-curso {
-        font-size: 18px;
+        font-size: 16px;
     }
     .card {
         height: 712px;
     }
-}
+} */
 
 @media screen and (min-width: 1394px){
     .card {

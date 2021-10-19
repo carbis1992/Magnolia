@@ -1,9 +1,18 @@
-const menuHamburguesa = document.querySelector("#menu-hamburguesa");
-const listaMenu = document.querySelector("#menu-lista");
+let menuHamburguesa = document.querySelector("#menu-hamburguesa");
+let listaMenu = document.querySelector("#menu-hamburguesa-lista");
+let modal = document.querySelector("#modal");
 
 menuHamburguesa.addEventListener("click", openMenu);
 
 function openMenu() {
-    listaMenu.classList.add('menu-lista');
-    console.log("click en la hambur");
+    listaMenu.style.display = "block";
 }
+
+window.addEventListener("click", function(e) {
+    if(e.target == modal){
+        listaMenu.style.display = "none";
+
+        console.log("click en window")
+    }
+});
+
