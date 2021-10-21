@@ -97,7 +97,7 @@ a:visited{
     top: 18%;
     list-style: none;
     width: 50%;
-    height: 37%;
+    max-height: 37%;
 }
 
 .btn-menu-hambur{
