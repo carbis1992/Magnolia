@@ -12,6 +12,7 @@
     padding: 25px;
     background: #484F5B;
     color: white;
+    height: 100px;
 }
 
 .fa-bars{
@@ -94,9 +95,9 @@ a:visited{
     background: #484F5B;
     position: absolute;
     right: 0;
-    top: 18%;
+    top: 98.99px;
     list-style: none;
-    width: 50%;
+    min-width: 35%;
     max-height: 37%;
 }
 
@@ -807,7 +808,7 @@ hr{
         height: 275px;
     }
     .background{
-        top: 131.5%;
+        top: 147.5%;
     }
 }
 
