@@ -1,18 +1,14 @@
 let menuHamburguesa = document.querySelector("#menu-hamburguesa");
-let listaMenu = document.querySelector("#menu-hamburguesa-lista");
-let modal = document.querySelector("#modal");
+let listaMenu = document.querySelector("#modal");
+let banner = document.querySelector(".banner");
 
 menuHamburguesa.addEventListener("click", openMenu);
+banner.addEventListener("click", closeMenu);
 
 function openMenu() {
     listaMenu.style.display = "block";
 }
 
-window.addEventListener("click", function(e) {
-    if(e.target == modal){
-        listaMenu.style.display = "none";
-
-        console.log("click en window")
-    }
-});
-
+function closeMenu(){
+    listaMenu.style.display = "none";
+}
