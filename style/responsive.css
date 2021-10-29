@@ -398,6 +398,18 @@
     }
 }
 
+@media screen and (min-width: 599px) and (max-width: 724px) {
+    #curso-txt-responsive1{
+        height: 42%;
+    }
+    #curso-txt-responsive2{
+        height: 37%;
+    }
+    #curso-txt-responsive{
+        height: 31%;
+    }
+}
+
 @media screen and (min-width: 702px) and (max-width: 725px) {
     .description {
         font-size: 16px;
