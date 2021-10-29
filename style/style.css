@@ -152,6 +152,10 @@ a:visited{
     background-image: url("../assets/4.png");
 }
 
+.banner-cursos{
+    width: 35%;
+}
+
 .description{
     padding-top: 20px;
     font-size: 20px;
@@ -164,6 +168,7 @@ a:visited{
     height: 125px;
     font-size: 50px;
     margin-bottom: 63px;
+    color: #B4846C;
 }
 
 .titulo-home{
@@ -292,29 +297,12 @@ hr{
     padding: 20px;
     color: #B4846C;
 }
-/* 
-#separator{
-    margin-bottom: 22px;
-} */
 
 .text-mision{
     padding-top: 20px;
     padding-left: 20px;
     color: grey;
 }
-
-.banner-somos{
-    margin-top: 10%;
-}
-
-/* .txt2{
-    padding-top: 5px;
-}
-
-.txt3{
-    padding-top: 5px;
-    padding-bottom: 10px;
-} */
 
 .cursos-bg{
     top: 125%;
@@ -373,6 +361,11 @@ hr{
     height: 100%;
 }
 
+#closeModal1,
+#closeModal2,
+#closeModal3{
+    display: none;
+}
 .descrip-cursos{
     box-shadow: 0 3px 6px rgb(0 0 0 / 30%);
     margin: 15px;
@@ -444,4 +437,3 @@ hr{
 .fa-footer:visited{
     color: white;
 }
-

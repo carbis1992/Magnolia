@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="/style/style.css">
+    <link rel="stylesheet" href="./style/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style/style.css">
     <link rel="stylesheet" href="./style/responsive.css">
@@ -54,7 +54,7 @@
         </div>
     </header>
     <!-- <main> -->
-        <div class="banner cursos-banner">
+        <div id="banner-cursos" class="banner cursos-banner">
             <div class="banner-text banner-cursos">
                 <h1 class="titulo-banner">Cursos Online</h1>
                 <p class="description descr-somos">. Lifting de pestañas <br>
@@ -63,7 +63,7 @@
             </div>
         </div>
         <div id="card-curso" class="card-curso">
-            <div class="card-curso1">
+            <div id="1" class="card-curso1">
                 <h1 id="curso-titulo" class="titulo-curso">Lifting de pestañas</h1>
                 <hr id="hr-separador">
                 <p id="cursos-texto" class="texto-curso cursos-texto">Bienvenidos al arte del lashlifting! La técnica
@@ -79,27 +79,28 @@
                 <img src="./assets/2a.png" alt="ojo" class="imagen-cursos">
         </div>
         <div id="modal1" class="wrapper-modal">
-        <div class="card-descripcion-curso1">
-            <div id="descrip-cursos-modal" class="descrip-cursos">
-                <h1 id="curso-titulo-modal" class="titulo-curso curso-titulo-dif">Aprenderás a</h1>
-                <hr id="hr-separador">
-                <p id="cursos-texto-modal" class="texto-curso cursos-texto">. A realizar paso a paso un correcto lifting de pestañas <br>
-                    para que tu técnica sea un éxito. <br> 
-                    . Tratamiento de recuperación con botox y keratina, <br>
-                    novedosa técnica que acelera el crecimiento. <br>
-                    . Tinte de pestañas para una coloracion perfecta.</p>
-            </div>
-            <div id="descrip-cursos-modal" class="descrip-cursos">
-                <h1 id="curso-titulo-modal" class="titulo-curso curso-titulo-dif">Incluye</h1>
-                <hr id="hr-separador">
-                <p id="cursos-texto-modal" class="texto-curso cursos-texto">. Acceso de por vida a videos tutoriales de capacitación. <br> 
-                    . Apuntes completos con información detallada de
-                    servicios y productos. <br>
-                    . Whorkshop vida zoom de marketing digital para dar
-                    sus primeros pasos.</p>
+            <div class="card-descripcion-curso1">
+                <i id="closeModal1" class="fas fa-times"></i>
+                <div id="descrip-cursos-modal" class="descrip-cursos">
+                    <h1 id="curso-titulo-modal" class="titulo-curso curso-titulo-dif">Aprenderás a</h1>
+                    <hr id="hr-separador">
+                    <p id="cursos-texto-modal" class="texto-curso cursos-texto">. A realizar paso a paso un correcto lifting de pestañas <br>
+                        para que tu técnica sea un éxito. <br> 
+                        . Tratamiento de recuperación con botox y keratina, <br>
+                        novedosa técnica que acelera el crecimiento. <br>
+                        . Tinte de pestañas para una coloracion perfecta.</p>
+                </div>
+                <div id="descrip-cursos-modal" class="descrip-cursos">
+                    <h1 id="curso-titulo-modal" class="titulo-curso curso-titulo-dif">Incluye</h1>
+                    <hr id="hr-separador">
+                    <p id="cursos-texto-modal" class="texto-curso cursos-texto">. Acceso de por vida a videos tutoriales de capacitación. <br> 
+                        . Apuntes completos con información detallada de
+                        servicios y productos. <br>
+                        . Whorkshop vida zoom de marketing digital para dar
+                        sus primeros pasos.</p>
+                </div>
             </div>
         </div>
-    </div>
         <!-- <div class="background cursos-bg2"></div> -->
         <div id="card-curso" class="card-curso">
             <div class="card-curso1 curso2">
@@ -120,6 +121,7 @@
         </div>
         <div id="modal2" class="wrapper-modal">
             <div class="card-descripcion-curso2">
+                <i id="closeModal2" class="fas fa-times"></i>
                 <div id="descrip-cursos-modal" class="descrip-cursos descrip2">
                     <h1 id="curso-titulo-modal" class="titulo-curso">Contenido</h1>
                     <hr id="hr-separador">
@@ -177,6 +179,7 @@
         </div>
         <div id="modal3" class="wrapper-modal">
             <div class="card-descripcion-curso3">
+                <i id="closeModal3" class="fas fa-times"></i>
                 <div id="descrip-cursos-modal" class="descrip-cursos descrip3">
                     <h1 id="curso-titulo-modal" class="titulo-curso">Contenido</h1>
                         <hr id="hr-separador">

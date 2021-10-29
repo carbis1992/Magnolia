@@ -1,4 +1,4 @@
-@media screen and (min-width: 280px) and (max-width:  297px) {
+@media screen and (min-width: 279px) and (max-width:  297px) {
     .description {
         font-size: 13px;
     }
@@ -43,6 +43,9 @@
     }
     .curso-txt-responsive{
         height: 60%;
+    }
+    #banner-cursos{
+        margin-top: 37%;
     }
 }
 
@@ -121,6 +124,9 @@
     .curso-txt-responsive{
         height: 53%;
     }
+    #texto1{
+        height: 40%;
+    }
 }
 
 @media screen and (min-width: 325px) and (max-width:  345px) {
@@ -163,7 +169,10 @@
         font-size: 22px;
     }
     .texto-curso{
-        height: 46%;
+        height: 39%;
+    }
+    #texto3{
+        height: 43%;
     }
     .banner-text {
         width: 55%;
@@ -187,7 +196,7 @@
 }
 
 @media screen and (max-width: 391px) {
-    .banner-cursos {
+    #banner-cursos {
         width: 62%;
     }
 }
@@ -219,13 +228,13 @@
         height: 34%;
     }
     .curso-txt-responsive{
-        height: 50%;
+        height: 45%;
     }
     #curso-txt-responsive1{
-        height: 60%;
+        height: 58%;
     }
     #curso-txt-responsive2{
-        height: 53%;
+        height: 51%;
     }
 }
 
@@ -296,7 +305,7 @@
         font-size: 25px;
     }
     .texto-curso{
-        height: 37%;
+        height: 38%;
     }
     .banner-text {
         width: 50%;
@@ -304,6 +313,9 @@
     }
     .imagen-curso {
         height: 200px;
+    }
+    #texto-medio{
+        height: 34%;
     }
 }
 
@@ -323,6 +335,12 @@
     .texto-curso{
         height: 32%;
     }
+    #texto-medio{
+        height: 30%;
+    }
+    #texto3{
+        height: 33%;
+    }
 }
 
 @media screen and (min-width: 490px) and (max-width: 520px) {
@@ -335,16 +353,24 @@
     .texto-curso{
         height: 30%;
     }
+    #texto-medio{
+        height: 25%;
+    }
 }
 
 @media screen and (max-width: 544px) {
     .banner-cursos{
         padding: 0;
-        width: 55%;
-        margin-top: 20%;
+        width: 60%;
+        margin-top: 50%;
     }
 }
 
+@media screen and (min-width: 520px) and (max-width: 533px) {
+    #texto3{
+        height: 30%;
+    }
+}
 @media screen and (min-width: 520px) and (max-width: 599px) {
     .description {
         font-size: 15px;
@@ -378,6 +404,12 @@
     }
     .titulo-banner {
         font-size: 39px;
+    }
+}
+
+@media screen and (max-width: 718px){
+    .banner-somos{
+        margin-top: 50%;
     }
 }
 
@@ -516,7 +548,17 @@
         padding-bottom: 20px;
         font-size: 15px;
     }
-    
+    #closeModal1,
+    #closeModal2,
+    #closeModal3{
+        display: block;
+        position: relative;
+        top: 10px;
+        float: right;
+        right: 15px;
+        color: grey;
+        cursor: pointer;
+    }
 }
 
 @media screen and (min-width: 775px) and (max-width: 914px) {
@@ -553,6 +595,10 @@
     #curso-titulo{
         font-size: 28px;
     }
+    .banner-cursos{
+        width: 50%;
+        margin-top: 37%;
+    }
 }
 
 @media screen and (min-width: 1146px) and (max-width: 1186px) {
@@ -564,8 +610,7 @@
 @media screen and (min-width: 1230px) and (max-width: 1300px){ 
     .banner-text{
         margin-top: 10%;
-    }
-    
+    }    
     .titulo-banner{
         font-size: 55px;
         text-align: left;
@@ -580,5 +625,8 @@
     .text-mision{
         padding-top: 12px;
         padding-right: 10px;
+    }
+    .banner-somos{
+        margin-top: 7%;
     }
 }
