@@ -82,14 +82,6 @@ a:visited{
     color: #ffffff;
 }
 
-/* .menu-hamburguesa-lista{
-    display: none;
-}
-
-.menu-hamburguesa-lista-block{
-    display: block;
-} */
-
 .menu-lista{
     display: none;
     background: #484F5B;
@@ -144,11 +136,11 @@ a:visited{
     padding: 20px;
     color: white;
     text-align: left;
-    margin-top: 8%;
+    margin-top: 7%;
 }
 
 .titulo-banner{
-    font-size: 65px;
+    font-size: 55px;
     text-align: left;
 }
 
@@ -190,7 +182,7 @@ a:visited{
     width: 65%;
     height: 20%;
     font-weight: bold;
-    font-size: 12px;
+    font-size: 22px;
     padding: 20px;
     position: relative;
 }
@@ -223,6 +215,10 @@ span{
     top: 143%;
 }
 
+#cursos-container{
+    display: none;
+}
+
 .cursos-cards{
     display: grid;
     grid-template-columns: auto auto auto;
@@ -236,7 +232,7 @@ span{
     border: 1px solid #A1A9B0;
     background: border-box;
     box-shadow: 0 3px 6px rgb(0 0 0 / 30%);
-    height: 103%;
+    height: 105%;
 }
 
 .imagen-curso{
@@ -247,7 +243,7 @@ span{
 hr{
     border: 2px solid #B4846C;
     background: #B4846C;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
     width: 85%;
     margin-left: 22px;
 }
@@ -260,8 +256,9 @@ hr{
 .texto-curso{
     font-size: 16px;
     margin-bottom: 20px;
-    padding: 0 41px;
+    padding: 20px 41px;
     color: rgb(196, 191, 191);
+    height: 25%;
     /* min-height: 171px; */
 }
 
@@ -292,31 +289,32 @@ hr{
 }
 
 .title-mision{
-    padding: 10px;
-    padding-left: 20px;
+    padding: 20px;
     color: #B4846C;
-    font-size: 20px;
 }
-
+/* 
 #separator{
-    margin-bottom: 5px;
-}
+    margin-bottom: 22px;
+} */
 
 .text-mision{
-    padding-right: 10px;
+    padding-top: 20px;
     padding-left: 20px;
-    font-size: 9px;
     color: grey;
 }
 
-.txt2{
+.banner-somos{
+    margin-top: 10%;
+}
+
+/* .txt2{
     padding-top: 5px;
 }
 
 .txt3{
     padding-top: 5px;
     padding-bottom: 10px;
-}
+} */
 
 .cursos-bg{
     top: 125%;
@@ -333,32 +331,15 @@ hr{
     margin-top: 6%;
 }
 
-/* .cursos-texto{
-    margin: 0;
-    padding-left: 20px;
-} */
-
-/* #cursos-texto{
-    font-size: 12px;
-    padding-left: 10px;
-    padding-right: 0;
-} */
-
 #cursos-texto {
-    font-size: 6px;
     padding-left: 21px;
-    padding-right: 0;
+    padding-right: 5px;
     padding-bottom: 10px;
 }
 
-#curso-titulo {
-    font-size: 10px;
-}
-
 #hr-separador {
-    border: 1px solid #B4846C;
+    border: 2px solid #B4846C;
     background: #B4846C;
-    margin-bottom: 10px;
     width: 70%;
     margin-left: 20px;
 }
@@ -366,12 +347,13 @@ hr{
 #curso-titulo{
     color: #B4846C;
     padding-left: 20px;
-    padding-bottom: 5px;
+    /* padding-bottom: 5px; */
+    float: left;
 }
-/* 
-#curso-titulo{
-    font-size: 14px;
-} */
+
+.curso-titulo-dif{
+    padding-bottom: 50px;
+}
 
 #card-curso{
     height: 100%;
@@ -381,7 +363,9 @@ hr{
     width: 25%;
 }
 
-.card-descripcion-curso{
+.card-descripcion-curso1,
+.card-descripcion-curso2,
+.card-descripcion-curso3{
     display: inline-flex;
     width: 78%;
     margin-left: 11%;
@@ -395,10 +379,10 @@ hr{
     width: 50%;
     margin-top: 0;
 }
-
+/* 
 .curso-titulo{
     text-align: center;
-}
+} */
 
 .cursos-bg2{
     top: 230%;
@@ -461,439 +445,3 @@ hr{
     color: white;
 }
 
-/* Responsive */
-
-@media screen and (min-width: 2011px) {    
-    .btn-menu{
-        font-size: 23px;
-    }
-
-    .logo{
-        width: 200px;
-    }
-    .titulo-banner{
-        font-size: 80px;
-    }
-    .description{
-        font-size: 29px;
-    }
-
-    .imagen-curso {
-        height: 355px;
-    }
-
-    .titulo-curso{
-        font-size: 40px;
-    }
-
-    .card{
-        height: 870px;
-    }
-    .texto-curso{
-        font-size: 25px;
-    }
-    .background{
-        top: 132%;
-    }
-    .btn-ver-mas{
-        width: 100px;
-        height: 42px;
-        font-size: 17px;
-    }
-}
-
-@media screen and (min-width: 1747px){
-    .texto-curso {
-        font-size: 20px;
-    }
-    .card {
-        height: 830px;
-    }
-    .imagen-curso {
-        height: 330px;
-    }
-}
-
-@media screen and (min-width: 1639px){
-    .titulo-banner {
-        font-size: 75px;
-    }
-
-    .description {
-        font-size: 23px;
-    }
-}
-
-@media screen and (min-width: 1631px){
-    .titulo-curso {
-        font-size: 35px;
-    }
-    .imagen-curso {
-        height: 320px;
-    }
-    .background {
-        top: 140%;
-    }
-}
-
-/* @media screen and (max-width: 1487px){
-    .banner-text{
-        margin-top: 5%;
-    }
-    .titulo-banner {
-        font-size: 55px;
-    }
-    .imagen-curso {
-        height: 295px;
-    }
-    .titulo-curso {
-        font-size: 30px;
-    }
-    .texto-curso {
-        font-size: 16px;
-    }
-    .card {
-        height: 712px;
-    }
-} */
-
-@media screen and (min-width: 1394px){
-    .card {
-        height: 712px;
-    }
-    .btn-ver-mas {
-        font-size: 16px;
-    }
-    .titulo-curso {
-        font-size: 25px;
-    }
-    .imagen-curso {
-        height: 270px;
-    }
-}
-
-@media screen and (min-width: 1381px){
-    .card {
-        height: 712px;
-    }
-    .btn-ver-mas {
-        font-size: 16px;
-    }
-    .titulo-curso {
-        font-size: 25px;
-    }
-    .imagen-curso {
-        height: 270px;
-    }
-}
-
-@media screen and (min-width: 1357px){
-    .card {
-        height: 712px;
-    }
-    .btn-ver-mas {
-        font-size: 16px;
-    }
-    .titulo-curso {
-        font-size: 25px;
-    }
-    .imagen-curso {
-        height: 270px;
-    }
-}
-
-@media screen and (max-width: 885px) {
-    .cursos-cards{
-        grid-template-columns: auto;
-        grid-row-gap: 50px;
-    }
-    .banner-text{
-        width: 48%;
-    }
-}
-
-@media screen and (max-width: 1150px) {
-    .banner-text{
-        width: 48%;
-    }
-}
-@media screen and (max-width: 1075px) {
-    .banner-text{
-        width: 51%;
-    }
-    
-}
-@media screen and (width: 1280px) {
-    .banner-text {
-        margin-top: 13%;
-    }
-    .description {
-        font-size: 24px;
-    }
-    .imagen-curso {
-        height: 250px;
-    }
-    .background{
-        top: 131%;
-    }
-}
-
-@media screen and (min-width: 1022px) and (max-width: 1070px) {
-    .titulo-banner {
-        font-size: 72px;
-    }
-    .description {
-        font-size: 29px;
-    }
-    .banner-text {
-        margin-top: 25%;
-    }
-    .item-menu {
-        font-size: 30px;
-    }
-    /* .imagen-curso {
-        height: 240px;
-    }
-    .texto-curso {
-        font-size: 14px;
-    }
-    .titulo-curso {
-        font-size: 24px;
-    }
-    .card {
-        height: 660px;
-    }
-    .background{
-        top: 119%;
-    } */
-    .cursos-cards {
-        grid-template-columns: auto;
-        grid-row-gap: 50px;
-    }
-    .card {
-        height: 945px;
-        justify-self: center;
-    }
-    .background{
-        top: 119%;
-    }
-    .imagen-curso {
-        height: 510px;
-    }
-    .titulo-curso {
-        font-size: 45px;
-    }
-    .texto-curso {
-        font-size: 30px;
-    }
-    .btn-ver-mas {
-        height: 50px;
-        width: 120px;
-        font-size: 20px;
-    }
-}
-
-@media screen and (max-width: 1015px) {
-    .description {
-        font-size: 18px;
-    }
-    .titulo-banner {
-        font-size: 50px;
-    }
-    .banner-text{
-        margin-top: 10%;
-        width: 48%;
-    }
-    .banner-somos{
-        margin-top: 42%;
-        width: 70%;
-    }
-}
-
-@media screen and (max-width: 847px) {
-    .description {
-        font-size: 16px;
-    }
-    .titulo-banner {
-        font-size: 45px;
-    }
-}
-
-@media screen and (max-width: 771px) {
-    .description {
-        font-size: 14px;
-    }
-    .titulo-banner {
-        font-size: 38px;
-    }
-    .item-menu {
-        margin-right: 25px;
-    }
-}
-
-@media screen and (min-width: 765px) and (max-width: 770px){
-    .imagen-curso {
-        height: 355px;
-    }
-    .card {
-        height: 730px;
-    }
-    .titulo-curso {
-        font-size: 30px;
-    }
-    .texto-curso {
-        font-size: 23px;
-    }
-    .background{
-        top: 125%;
-    }
-    .titulo-banner {
-        font-size: 45px;
-    }
-    .description {
-        font-size: 22px;
-    }
-    .banner-text {
-        margin-top: 28%;
-    }
-}
-
-@media screen and (max-width: 665px) {
-    .description {
-        font-size: 12px;
-    }
-    .titulo-banner {
-        font-size: 35px;
-    }
-    .banner-text {
-        margin-top: 12%;
-    }
-}
-
-@media screen and (max-width: 650px) {
-    .nav-menu{
-        display: none;
-    }
-    .header{
-        padding-bottom: 10px;
-    }
-    .fa-bars{
-        visibility: visible;
-        font-size: 30px;
-    }
-}
-
-@media screen and (max-width: 620px) {
-    .description {
-        font-size: 10px;
-    }
-    .titulo-banner {
-        font-size: 29px;
-    }
-    .banner-text {
-        margin-top: 14%;
-    }
-}
-
-@media screen and (min-width: 539px) and (max-width: 600px) {
-    .titulo-banner {
-        font-size: 35px;
-    }
-    .description {
-        font-size: 16px;
-    }
-    .banner-text {
-        margin-top: 23%;
-    }
-}
-
-@media screen and (min-width: 320px) {
-    .item-footer{
-        padding: 10px;
-    }
-}
-
-@media screen and (min-width: 319px) and (max-width: 360px){
-    .titulo-banner {
-        font-size: 25px;
-    }
-    .description {
-        font-size: 15px;
-    }
-    .background {
-        top: 144%;
-    }
-    .imagen-curso {
-        height: 196px;
-    }
-    .imagen-curso {
-        height: 185px;
-    }
-}
-
-@media screen and (min-width: 324px) and (max-width: 412px) {
-    .description {
-        font-size: 15px;
-    }
-    .imagen-curso {
-        height: 275px;
-    }
-    .background{
-        top: 147.5%;
-    }
-}
-
-@media screen and (min-width:360px) and (max-width: 370px){
-    .card{
-        height: 640px;
-    }
-    .imagen-curso{
-        height: 240px;
-    }
-    .item-footer{
-        padding: 10px;
-    }
-    .description{
-        font-size: 13px;
-    }
-    .texto-curso{
-        font-size: 15px;
-    }
-    .titulo-curso {
-        font-size: 25px;
-    }
-}
-
-@media screen and (min-width: 279px) and (max-width: 300px) {
-    .item-footer {
-        padding: 7px;
-    }
-    .titulo-banner {
-        font-size: 22px;
-    }
-    .banner-text {
-        margin-top: 38%;
-    }
-    .imagen-curso {
-        height: 200px;
-    }
-    .card {
-        height: 790px;
-    }
-}
-/* 
-@media screen and (min-width: 375px) {
-    .nav-menu{
-        display: none;
-    }
-    .banner-text{
-        top: 45%;
-        left: 18%;
-    }
-    .titulo-banner{
-        font-size: 25px;
-    }
-    .cursos-cards{
-        grid-template-columns: auto;
-    }
-} */

@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="/style/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/responsive.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/995aed6788.js" crossorigin="anonymous"></script>
     <title>Cursos</title>
@@ -54,15 +55,13 @@
     </header>
     <!-- <main> -->
         <div class="banner cursos-banner">
-            <div class="banner-text">
+            <div class="banner-text banner-cursos">
                 <h1 class="titulo-banner">Cursos Online</h1>
                 <p class="description descr-somos">. Lifting de pestañas <br>
                     . Diseño y perfilado de cejas <br>
                     . Laminado de cejas</p>
             </div>
         </div>
-        <div class="main-grid">
-        <!-- <div class="background cursos-bg"></div> -->
         <div id="card-curso" class="card-curso">
             <div class="card-curso1">
                 <h1 id="curso-titulo" class="titulo-curso">Lifting de pestañas</h1>
@@ -79,33 +78,35 @@
                 </div>
                 <img src="./assets/2a.png" alt="ojo" class="imagen-cursos">
         </div>
-        <div class="card-descripcion-curso">
-            <div class="descrip-cursos">
-                <h1 id="curso-titulo" class="titulo-curso curso-titulo">Aprenderás a</h1>
-                    <hr id="hr-separador">
-                    <p id="cursos-texto" class="texto-curso cursos-texto">. A realizar paso a paso un correcto lifting de pestañas
-                        para que tu técnica sea un éxito. 
-                        . Tratamiento de recuperación con botox y keratina,
-                        novedosa técnica que acelera el crecimiento. 
-                        . Tinte de pestañas para una coloracion perfecta.</p>
-            </div>
-            <div class="descrip-cursos">
-                <h1 id="curso-titulo" class="titulo-curso curso-titulo">Incluye</h1>
+        <div id="modal1" class="wrapper-modal">
+        <div class="card-descripcion-curso1">
+            <div id="descrip-cursos-modal" class="descrip-cursos">
+                <h1 id="curso-titulo-modal" class="titulo-curso curso-titulo-dif">Aprenderás a</h1>
                 <hr id="hr-separador">
-                <p id="cursos-texto" class="texto-curso cursos-texto">. Acceso de por vida a videos tutoriales de capacitación. 
+                <p id="cursos-texto-modal" class="texto-curso cursos-texto">. A realizar paso a paso un correcto lifting de pestañas <br>
+                    para que tu técnica sea un éxito. <br> 
+                    . Tratamiento de recuperación con botox y keratina, <br>
+                    novedosa técnica que acelera el crecimiento. <br>
+                    . Tinte de pestañas para una coloracion perfecta.</p>
+            </div>
+            <div id="descrip-cursos-modal" class="descrip-cursos">
+                <h1 id="curso-titulo-modal" class="titulo-curso curso-titulo-dif">Incluye</h1>
+                <hr id="hr-separador">
+                <p id="cursos-texto-modal" class="texto-curso cursos-texto">. Acceso de por vida a videos tutoriales de capacitación. <br> 
                     . Apuntes completos con información detallada de
-                    servicios y productos. 
-                    . Whorshop vida zoom de marketing digital para dar
+                    servicios y productos. <br>
+                    . Whorkshop vida zoom de marketing digital para dar
                     sus primeros pasos.</p>
             </div>
         </div>
+    </div>
         <!-- <div class="background cursos-bg2"></div> -->
         <div id="card-curso" class="card-curso">
             <div class="card-curso1 curso2">
                 <img src="./assets/3aaa.png" alt="ojo" class="imagen-cursos2">
                 <div class="descripcion-cursos">
-                    <h1 id="curso-titulo" class="titulo-curso">Diseño y perfilado de cejas</h1>
-                    <hr id="hr-separador">
+                    <h1 id="curso-titulo" class="titulo-curso curso-titulo-dif">Diseño y perfilado de cejas</h1>
+                    <hr id="hr-separador hr-card2">
                     <p id="cursos-texto" class="texto-curso cursos-texto">Este curso online de Estilismo y perfilado de cejas,
                         contempla todos los temas relacionados a aquellas
                         personas que desean iniciar su carrera en el área de
@@ -117,45 +118,47 @@
                     </div>
                 </div>
         </div>
-        <div class="card-descripcion-curso">
-            <div class="descrip-cursos descrip2">
-                <h1 id="curso-titulo" class="titulo-curso curso-titulo">Contenido</h1>
+        <div id="modal2" class="wrapper-modal">
+            <div class="card-descripcion-curso2">
+                <div id="descrip-cursos-modal" class="descrip-cursos descrip2">
+                    <h1 id="curso-titulo-modal" class="titulo-curso">Contenido</h1>
                     <hr id="hr-separador">
-                    <p id="cursos-texto" class="texto-curso cursos-texto">Formato y proporción de las cejas 
-                        . Tipos de cejas y formato de rostros 
-                        . Tipos de Arquitectura 
-                        . Alineamiento de carreras 
-                        . Como hacer la medición 
-                        . Instrumentos usados para la medición 
-                        . Elementos para esterilización 
-                        . Atención al cliente y 
+                    <p id="cursos-texto-modal" class="texto-curso cursos-texto">. Formato y proporción de las cejas <br> 
+                        . Tipos de cejas y formato de rostros <br> 
+                        . Tipos de Arquitectura <br> 
+                        . Alineamiento de carreras <br> 
+                        . Como hacer la medición <br> 
+                        . Instrumentos usados para la medición <br>
+                        . Elementos para esterilización <br>
+                        . Atención al cliente y
                         contraindicaciones 
-                        . Materiales utilizados 
+                        . Materiales utilizados <br> 
                         . Bioseguridad</p>
-            </div>
-            <div class="descrip-cursos">
-                <h1 id="curso-titulo" class="titulo-curso curso-titulo">Aprenderás a</h1>
-                <hr id="hr-separador">
-                <p id="cursos-texto" class="texto-curso cursos-texto">. Realizar un diseño de cejas 
-                    perfecto 
-                    . Desarrollaras habilidades 
-                    técnicas 
-                    . Sensibilidad estética necesaria 
-                    para la construcción de un diseño 
-                    de cejas completamente 
-                    armónico para cada rostro, 
-                    sabiendo respetar sus 
-                    “individualidades”.</p>
-            </div>
-            <div class="descrip-cursos">
-                <h1 id="curso-titulo" class="titulo-curso curso-titulo">Incluye</h1>
-                <hr id="hr-separador">
-                <p id="cursos-texto" class="texto-curso cursos-texto">. Videos y contenidos exclusivos 
-                    . Archivos pdf para descargar 
-                    . Paso a paso de dos 
-                    procedimientos completos 
-                    . Acceso ilimitado de por vida 
-                    . Certificación</p>
+                </div>
+                <div id="descrip-cursos-modal" class="descrip-cursos">
+                    <h1 id="curso-titulo-modal" class="titulo-curso">Aprenderás a</h1>
+                    <hr id="hr-separador">
+                    <p id="cursos-texto-modal" class="texto-curso cursos-texto">. Realizar un diseño de cejas 
+                        perfecto 
+                        . Desarrollaras habilidades 
+                        técnicas 
+                        . Sensibilidad estética necesaria 
+                        para la construcción de un diseño 
+                        de cejas completamente 
+                        armónico para cada rostro, 
+                        sabiendo respetar sus 
+                        “individualidades”.</p>
+                </div>
+                <div id="descrip-cursos-modal" class="descrip-cursos">
+                    <h1 id="curso-titulo-modal" class="titulo-curso">Incluye</h1>
+                    <hr id="hr-separador">
+                    <p id="cursos-texto-modal" class="texto-curso cursos-texto">. Videos y contenidos exclusivos <br> 
+                        . Archivos pdf para descargar <br> 
+                        . Paso a paso de dos 
+                        procedimientos completos <br> 
+                        . Acceso ilimitado de por vida <br> 
+                        . Certificación</p>
+                </div>
             </div>
         </div>
         <!-- <div class="background cursos-bg3"></div> -->
@@ -172,30 +175,82 @@
                 </div>
                 <img src="./assets/1aa.png" alt="ojo" class="imagen-cursos img-curso3">
         </div>
-        <div class="card-descripcion-curso">
-            <div class="descrip-cursos descrip3">
-                <h1 id="curso-titulo" class="titulo-curso curso-titulo">Contenido</h1>
+        <div id="modal3" class="wrapper-modal">
+            <div class="card-descripcion-curso3">
+                <div id="descrip-cursos-modal" class="descrip-cursos descrip3">
+                    <h1 id="curso-titulo-modal" class="titulo-curso">Contenido</h1>
+                        <hr id="hr-separador">
+                        <p id="cursos-texto-modal" class="texto-curso cursos-texto">. ¿Que es el laminado de cejas? <br> 
+                            . Insumos <br> 
+                            . Correcto uso de insumos <br> 
+                            . Procedimiento del laminado paso a paso <br> 
+                            . Contraindicaciones <br> 
+                            . Cuidados <br> 
+                            . Contenido audiovisual con el procedimiento del servicio 
+                            paso a paso para que veas cuantas veces quieras <br> 
+                            . Manual instructivo para que puedas descargar <br> 
+                            . Apoyo y seguimiento durante los próximos 3 meses <br> 
+                            . Marcas recomendadas</p>
+                </div>
+                <div id="descrip-cursos-modal" class="descrip-cursos">
+                    <h1 id="curso-titulo-modal" class="titulo-curso">Incluye</h1>
                     <hr id="hr-separador">
-                    <p id="cursos-texto" class="texto-curso cursos-texto">. ¿Que es el laminado de cejas? 
-                        . Insumos 
-                        . Correcto uso de insumos 
-                        . Procedimiento del laminado paso a paso 
-                        . Contraindicaciones 
-                        . Cuidados 
-                        . Contenido audiovisual con el procedimiento del servicio 
-                        paso a paso para que veas cuantas veces quieras 
-                        . Manual instructivo para que puedas descargar 
-                        . Apoyo y seguimiento durante los próximos 3 meses 
-                        . Marcas recomendadas</p>
+                    <p id="cursos-texto-modal" class="texto-curso cursos-texto">. Incluye Certificado Digital que se enviará 
+                        automáticamente una vez completado el curso al 100% <br> 
+                        . Podrás realizar este curso cuando quieras y a la hora 
+                        que quieras ya que es de puro contenido audiovisual 
+                        grabado.</p>
+                </div>
             </div>
-            <div class="descrip-cursos">
-                <h1 id="curso-titulo" class="titulo-curso curso-titulo">Incluye</h1>
-                <hr id="hr-separador">
-                <p id="cursos-texto" class="texto-curso cursos-texto">. Incluye Certificado Digital que se enviará 
-                    automáticamente una vez completado el curso al 100% 
-                    . Podrás realizar este curso cuando quieras y a la hora 
-                    que quieras ya que es de puro contenido audiovisual 
-                    grabado.</p>
+        </div>
+        <!-- responsive -->
+        <div id="cursos-container" class="cursos-cards">
+            <div class="card">
+                <img src="./assets/2a.png" alt="Lifting de pestañas" class="imagen-curso">
+                <h1 class="titulo-curso">Lifting de pestañas</h1>
+                <hr>
+                <p id="curso-txt-responsive1" class="texto-curso curso-txt-responsive"> Bienvenidos al arte del lashlifting! La técnica
+                    innovadora con la cual podrán alisar, estirar y levantar
+                    suavemente las pestañas naturales desde su base,
+                    logrando que luzcan visiblemente más largas y
+                    llamativas. En Magnolia estamos comprometidos en
+                    formar a los mejores profesionales . Por eso
+                    diseñamos este curso intensivo que reúne toda
+                    nuestra experiencia y conocimientos adquiridos para
+                    compartirlo con ustedes.</p>
+                <a>
+                    <button id="ver-mas-modal" class="btn-ver-mas">Saber más</button>
+                </a>                     
+            </div>
+            <div class="card">
+                <img src="./assets/3aaa.png" alt="Diseño y perfilado de cejas" class="imagen-curso">
+                <h1 class="titulo-curso">Diseño y perfilado  de cejas</h1>
+                <hr>
+                <p class="texto-curso curso-txt-responsive" id="curso-txt-responsive2">Este curso online de Estilismo y perfilado de cejas,
+                    contempla todos los temas relacionados a aquellas
+                    personas que desean iniciar su carrera en el área de
+                    la estética a través del perfilado y estilismo de cejas.
+                    En estos módulos encontrarán contenido que explica
+                    desde la atención al cliente, pasando por los
+                    materiales utilizados, métodos de esterilización,
+                    formatos de rostro.</p>
+                <a>
+                    <button id="ver-mas-modal2" class="btn-ver-mas" id="btn-medio">Saber más</button>
+                </a>                    
+            </div>
+            <div class="card">
+                <img src="./assets/1aa.png" alt="laminado de cejas" class="imagen-curso">
+                <h1 class="titulo-curso">Laminado de cejas</h1>
+                <hr>
+                <p id="curso-txt-responsive" class="texto-curso curso-txt-responsive">Ofrecé en tu espacio este servicio de fácil proceso y
+                    excelente resultado.
+                    El Laminado de Cejas trabaja con el vello que tiene la
+                    misma, permitiendo darle un aspecto mas uniforme
+                    pero vistoso. Rellenando huecos y dándole intensidad
+                    sin necesidad de teñirlas.</p>
+                <a>
+                    <button id="ver-mas-modal3" class="btn-ver-mas">Saber más</button>
+                </a>
             </div>
         </div>
         <footer class="footer">

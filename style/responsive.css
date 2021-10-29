@@ -1,0 +1,584 @@
+@media screen and (min-width: 280px) and (max-width:  297px) {
+    .description {
+        font-size: 13px;
+    }
+    .titulo-banner {
+        font-size: 19px;
+    }
+    .texto-curso{
+        height: 52%;
+        padding: 20px 24px;
+        margin-bottom: 0;
+    }
+    .banner-text {
+        width: 55%;
+        margin-top: 38%;
+    }
+    .imagen-curso {
+        height: 150px;
+    }
+    .card {
+        width: 80%;
+    }
+    #texto-medio{
+        height: 43%;
+    }
+    .titulo-curso{
+        font-size: 21px;
+    }
+    hr{
+        width: 80%;
+    }
+    .item-footer{
+        padding: 6px;
+    }
+    .quienes-somos-title{
+        font-size: 15px;
+    }
+    #curso-txt-responsive1{
+        height: 71%;
+    }    
+    #curso-txt-responsive2{
+        height: 65.5%;
+    }
+    .curso-txt-responsive{
+        height: 60%;
+    }
+}
+
+
+@media screen and (min-width: 297px) and (max-width:  302px) {
+    .description {
+        font-size: 13px;
+    }
+    .titulo-banner {
+        font-size: 19px;
+    }
+    .texto-curso{
+        height: 48%;
+        padding: 20px 24px;
+    }
+    .banner-text {
+        width: 55%;
+        margin-top: 22%;
+    }
+    .imagen-curso {
+        height: 150px;
+    }
+    .card {
+        width: 80%;
+    }
+    #texto-medio{
+        height: 42%;
+    }
+    .titulo-curso{
+        font-size: 21px;
+    }
+    hr{
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 302px) and (max-width:  324px) {
+    .description {
+        font-size: 13px;
+    }
+    .titulo-banner {
+        font-size: 22px;
+    }
+    .texto-curso{
+        height: 44%;
+        padding: 20px 30px;
+    }
+    .banner-text {
+        width: 55%;
+        margin-top: 22%;
+    }
+    .imagen-curso {
+        height: 180px;
+    }
+    .card {
+        width: 80%;
+    }
+    #btn-medio{
+        margin-bottom: 31%;
+    }
+    #texto-medio{
+        height: 38%;
+    }
+    .titulo-curso{
+        font-size: 25px;
+    }
+    hr{
+        width: 80%;
+    }
+    #curso-txt-responsive1{
+        height: 63%;
+    }    
+    #curso-txt-responsive2{
+        height: 57%;
+    }
+    .curso-txt-responsive{
+        height: 53%;
+    }
+}
+
+@media screen and (min-width: 325px) and (max-width:  345px) {
+    .description {
+        font-size: 13px;
+    }
+    .titulo-banner {
+        font-size: 22px;
+    }
+    .texto-curso{
+        height: 40%;
+        padding: 20px 35px;
+    }
+    .banner-text {
+        width: 55%;
+        margin-top: 22%;
+    }
+    .imagen-curso {
+        height: 180px;
+    }
+    .card {
+        width: 80%;
+    }
+    #btn-medio{
+        margin-bottom: 31%;
+    }
+    #texto-medio{
+        height: 38%;
+    }
+    .titulo-curso{
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width: 345px) and (max-width:  356px) {
+    .description {
+        font-size: 13px;
+    }
+    .titulo-banner {
+        font-size: 22px;
+    }
+    .texto-curso{
+        height: 46%;
+    }
+    .banner-text {
+        width: 55%;
+        margin-top: 22%;
+    }
+    .imagen-curso {
+        height: 180px;
+    }
+    .card {
+        width: 80%;
+    }
+    #btn-medio{
+        margin-bottom: 31%;
+    }
+    #texto-medio{
+        height: 38%;
+    }
+    .titulo-curso{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 391px) {
+    .banner-cursos {
+        width: 62%;
+    }
+}
+
+@media screen and (min-width: 356px) and (max-width:  391px) {
+    .description {
+        font-size: 15px;
+    }
+    .titulo-banner {
+        font-size: 25px;
+    }
+    .texto-curso{
+        height: 40%;
+    }
+    .banner-text {
+        width: 55%;
+        margin-top: 32%;
+    }
+    .imagen-curso {
+        height: 190px;
+    }
+    .card {
+        width: 80%;
+    }
+    #btn-medio{
+        margin-bottom: 31%;
+    }
+    #texto-medio{
+        height: 34%;
+    }
+    .curso-txt-responsive{
+        height: 50%;
+    }
+    #curso-txt-responsive1{
+        height: 60%;
+    }
+    #curso-txt-responsive2{
+        height: 53%;
+    }
+}
+
+@media screen and (min-width: 391px) and (max-width:  395px) {
+    .description {
+        font-size: 13px;
+    }
+    .titulo-banner {
+        font-size: 22px;
+    }
+    .texto-curso{
+        height: 40%;
+    }
+    .banner-text {
+        width: 55%;
+        margin-top: 22%;
+    }
+    .imagen-curso {
+        height: 200px;
+    }
+    .card {
+        width: 80%;
+    }
+    #btn-medio{
+        margin-bottom: 20%;
+    }
+}
+
+@media screen and (min-width: 395px) and (max-width:  414px) {
+    .description {
+        font-size: 14px;
+    }
+    .titulo-banner {
+        font-size: 25px;
+    }
+    .texto-curso{
+        height: 34%;
+    }
+    .banner-text {
+        width: 55%;
+        margin-top: 32%;
+    }
+    .imagen-curso {
+        height: 200px;
+    }
+    .card {
+        width: 80%;
+    }
+    #texto-medio{
+        height: 32%;
+    }
+    #curso-txt-responsive1{
+        height: 54%;
+    }    
+    #curso-txt-responsive2{
+        height: 47%;
+    }
+    .curso-txt-responsive{
+        height: 40%;
+    }
+}
+
+@media screen and (min-width: 414px) and (max-width:  424px) {
+    .description {
+        font-size: 15px;
+    }
+    .titulo-banner {
+        font-size: 25px;
+    }
+    .texto-curso{
+        height: 37%;
+    }
+    .banner-text {
+        width: 50%;
+        margin-top: 32%;
+    }
+    .imagen-curso {
+        height: 200px;
+    }
+}
+
+@media screen and (min-width: 279px) and (max-width: 420px) {
+    .card{
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 424px) and (max-width: 490px) {
+    .description {
+        font-size: 15px;
+    }
+    .titulo-banner {
+        font-size: 25px;
+    }
+    .texto-curso{
+        height: 32%;
+    }
+}
+
+@media screen and (min-width: 490px) and (max-width: 520px) {
+    .description {
+        font-size: 15px;
+    }
+    .titulo-banner {
+        font-size: 25px;
+    }
+    .texto-curso{
+        height: 30%;
+    }
+}
+
+@media screen and (max-width: 544px) {
+    .banner-cursos{
+        padding: 0;
+        width: 55%;
+        margin-top: 20%;
+    }
+}
+
+@media screen and (min-width: 520px) and (max-width: 599px) {
+    .description {
+        font-size: 15px;
+    }
+    .titulo-banner {
+        font-size: 30px;
+    }
+    #curso-txt-responsive1{
+        height: 46%;
+    }    
+    #curso-txt-responsive2{
+        height: 39%;
+    }
+    .curso-txt-responsive{
+        height: 34%;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 702px) {
+    .description {
+        font-size: 16px;
+    }
+    .titulo-banner {
+        font-size: 34px;
+    }
+}
+
+@media screen and (min-width: 702px) and (max-width: 725px) {
+    .description {
+        font-size: 16px;
+    }
+    .titulo-banner {
+        font-size: 39px;
+    }
+}
+
+@media screen and (max-width: 725px) {
+    .nav-menu{
+        display: none;
+    }
+    .header{
+        padding-bottom: 10px;
+    }
+    .fa-bars{
+        visibility: visible;
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width: 725px) and (max-width: 775px) {
+    .titulo-banner{
+        font-size: 36px;
+    }
+    .description {
+        font-size: 20px;
+    }    
+    .banner-text {
+        margin-top: 25%;
+    }
+    .texto-curso{
+        font-size: 20px;
+    }
+    #curso-txt-responsive1{
+        height: 46%;
+    }    
+    #curso-txt-responsive2{
+        height: 40%;
+    }
+    .curso-txt-responsive{
+        height: 35%;
+    }
+}
+
+@media screen and (min-width: 421px)  and (max-width: 775px) {
+    .card {
+        width: 70%;
+    }
+    .quienes-somos-title{
+        font-size: 20px;
+    }
+    .text-mision{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 775px) {
+    .cursos-cards{
+        grid-template-columns: auto;
+        grid-row-gap: 50px;
+        justify-items: center;
+    }
+    .card {
+        height: 100%;
+    }
+    .btn-ver-mas {
+        margin-bottom: 10%;
+    }
+    .card-mision{
+        display: block;
+    }
+    .txt3{
+        padding-bottom: 20px;
+    }
+    .imagen-mision{
+        width: 100%;
+    }
+    .text-mision{
+        padding-right: 10px;
+    }
+}
+
+@media screen and (min-width: 775px) {
+    .titulo-curso{
+        height: 20%;
+    }
+}
+
+@media screen and (max-width: 876px) {
+    /* .card-descripcion-curso{
+        display: none;
+    } */
+    #card-curso{
+        display: none;
+    }
+    #hr-card2{
+        width: 95%;
+    }
+    #cursos-container{
+        display: grid;
+    }
+    .cursos-banner{
+        margin-bottom: 40px;
+    }
+    #modal1,
+    #modal2,
+    #modal3{
+        display: none;
+        grid-template-columns: 10% auto 10%;    
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        background: rgba(207, 204, 204, 0.5);
+    }
+    .card-descripcion-curso1,
+    .card-descripcion-curso2,
+    .card-descripcion-curso3{
+        grid-column: 2;
+        text-align: center;
+        background-color: #fff;
+        height: 100%;
+        text-align: -webkit-center;
+        display: block;
+        overflow-y: scroll;
+        margin: 0;
+        width: 100%;
+    }
+    #curso-titulo-modal{
+        padding: 20px;
+        font-size: 20px;
+    }
+    #descrip-cursos-modal{
+        width: 75%;
+        margin: 0;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    #cursos-texto-modal{
+        padding: 10px;
+        padding-bottom: 20px;
+        font-size: 15px;
+    }
+    
+}
+
+@media screen and (min-width: 775px) and (max-width: 914px) {
+    .texto-curso{
+        height: 39%;   
+    }
+    .titulo-banner{
+        font-size: 41px;
+    }
+}
+
+@media screen and (min-width: 914px) and (max-width: 993px) {
+    .texto-curso{
+        height: 37%;   
+    }
+    .titulo-banner{
+        font-size: 43px;
+    }
+}
+
+@media screen and (min-width: 993px) and (max-width: 1146px) {
+    .texto-curso{
+        height: 32%;   
+    }
+    .banner-text {
+        margin-top: 7%;
+    }
+    .banner-somos{
+        margin-top: 15%;
+    }
+    .txt3{
+        padding-bottom: 20px;
+    }
+    #curso-titulo{
+        font-size: 28px;
+    }
+}
+
+@media screen and (min-width: 1146px) and (max-width: 1186px) {
+    .texto-curso{
+        height: 30%;   
+    }
+}
+
+@media screen and (min-width: 1230px) and (max-width: 1300px){ 
+    .banner-text{
+        margin-top: 10%;
+    }
+    
+    .titulo-banner{
+        font-size: 55px;
+        text-align: left;
+    }
+    
+    .titulo-curso {
+        font-size: 30px;
+    }
+    .title-mision{
+        font-size: 25px;
+    }
+    .text-mision{
+        padding-top: 12px;
+        padding-right: 10px;
+    }
+}
